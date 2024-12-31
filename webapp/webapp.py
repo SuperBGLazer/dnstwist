@@ -23,7 +23,7 @@ from uuid import uuid4
 import time
 import threading
 from flask import Flask, request, jsonify, send_from_directory
-import dnstwist
+import webapp.dnstwist as dnstwist
 
 
 PORT = int(os.environ.get('PORT', 8000))
