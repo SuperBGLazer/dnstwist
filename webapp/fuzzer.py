@@ -1,5 +1,5 @@
-from webapp.Permutation import Permutation
-from webapp.dnstwist import VALID_FQDN_REGEX, domain_tld, idna
+from permutation import Permutation
+from .dnstwist import VALID_FQDN_REGEX, domain_tld, idna
 
 
 class Fuzzer():

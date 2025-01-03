@@ -1,4 +1,4 @@
-from webapp.dnstwist import idna
+from .dnstwist import idna
 
 
 import json

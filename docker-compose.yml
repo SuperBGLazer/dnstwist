@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - phash=1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/opt/dnstwist

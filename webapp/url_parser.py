@@ -1,4 +1,4 @@
-from webapp.dnstwist import VALID_FQDN_REGEX, idna
+from .dnstwist import VALID_FQDN_REGEX, idna
 
 
 import urllib.parse

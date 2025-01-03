@@ -1,4 +1,4 @@
-from webapp.dnstwist import domain_tld
+from .dnstwist import domain_tld
 
 
 import re

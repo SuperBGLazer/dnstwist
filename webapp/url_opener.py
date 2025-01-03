@@ -1,4 +1,4 @@
-from webapp.dnstwist import REQUEST_TIMEOUT_HTTP
+from .dnstwist import REQUEST_TIMEOUT_HTTP
 
 
 import gzip

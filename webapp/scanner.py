@@ -1,6 +1,5 @@
-from webapp.HeadlessBrowser import HeadlessBrowser
-from webapp.dnstwist import REQUEST_RETRIES_DNS, REQUEST_TIMEOUT_DNS, REQUEST_TIMEOUT_HTTP, REQUEST_TIMEOUT_SMTP, _debug, geoip
-
+from .headless_browser import HeadlessBrowser
+from dnstwist import REQUEST_RETRIES_DNS, REQUEST_TIMEOUT_DNS, REQUEST_TIMEOUT_HTTP, REQUEST_TIMEOUT_SMTP, _debug, geoip
 
 import os
 import queue
@@ -8,7 +7,7 @@ import socket
 import threading
 from io import BytesIO
 
-from webapp.pHash import pHash
+from .pHash import pHash
 
 
 class Scanner(threading.Thread):

@@ -32,14 +32,14 @@ import re
 import sys
 import socket
 
-from webapp.Format import Format
-from webapp.Fuzzer import Fuzzer
-from webapp.HeadlessBrowser import HeadlessBrowser
-from webapp.Scanner import Scanner
-from webapp.UrlOpener import UrlOpener
-from webapp.UrlParser import UrlParser
-from webapp.Whois import Whois
-from webapp.pHash import pHash
+from format import Format
+from fuzzer import Fuzzer
+from headless_browser import HeadlessBrowser
+from scanner import Scanner
+from url_opener import UrlOpener
+from url_parser import UrlParser
+from whois import Whois
+from p_hash import pHash
 socket.setdefaulttimeout(12.0)
 import signal
 import time
